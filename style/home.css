@@ -1,0 +1,46 @@
+html{
+    height: 100%;
+    font-family: "Helvetica", Arial, sans-serif;
+}
+body{
+    background-color: #c6ab8d;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid{
+    margin: 5px;
+    display: grid;
+    height: 90%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.case{
+    position: relative;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd5c2;
+    color: #826b53;
+    border-radius: 20px;
+}
+
+.case_title{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer{
+    left: 0;
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #9a6b5e;
+    color: #664028;
+    text-align: center;
+}
