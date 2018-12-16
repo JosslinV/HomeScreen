@@ -25,7 +25,20 @@ body{
     border-width: 1px;
     border-color: #ddd5c2;
     color: #826b53;
+    background-image: linear-gradient(#ddd5c2, #826b53, #ddd5c2);
     border-radius: 20px;
+}
+
+.case > img{
+    margin-top: 1%;
+    position: absolute;
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 80%;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #826b53;
 }
 
 .case_title{
